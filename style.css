@@ -13,9 +13,9 @@
     font-weight: 800;
 }
 
-.title-subtext, ol {
+.title-subtext, ol, a {
     font-size: 18px;
-    color: E5E7EB;
+    color: #E5E7EB;
 }
 
 button {
@@ -36,4 +36,12 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1F22937;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol {
+    list-style: none;
 }
