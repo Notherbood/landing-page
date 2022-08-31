@@ -1,10 +1,39 @@
 .body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.header {
+.header, .footer, .upper-body {
     display: flex;
-    background-color: black;
+    background-color: #1F2937;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.title-subtext, ol {
+    font-size: 18px;
+    color: E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.middle-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.lower-middle {
+    background-color: #E5E7EB;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F22937;
 }
