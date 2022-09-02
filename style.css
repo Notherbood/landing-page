@@ -1,9 +1,3 @@
-.body {
-    display: flex;
-    flex-direction: column;
-    flex-basis: auto;
-}
-
 .header, .footer, .upper-body {
     background-color: #1F2937;
 }
@@ -35,7 +29,7 @@ button {
 .testimonial {
     font-size: 36px;
     font-style: italic;
-    color: #1F22937;
+    color: #1F2937;
 }
 
 a {
@@ -46,43 +40,6 @@ ol {
     list-style: none;
 }
 
-.header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-ol {
-    display: flex;
-    gap: 10px;
-}
-
-.title {
-    color: white;
-}
-
-.header-upperbody {
-    display: flex;
-    flex-direction: column;
-}
-
-.upper-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    gap: 150px;
-}
-
-.upper-right {
-    display: flex;
-    background-color: grey;
-    color: white;
-    padding: 90px 100px;
-}
-
-.upper-left {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
+body {
+    margin: 0px;
 }
