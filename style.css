@@ -1,10 +1,10 @@
 .body {
     display: flex;
     flex-direction: column;
+    flex-basis: auto;
 }
 
 .header, .footer, .upper-body {
-    display: flex;
     background-color: #1F2937;
 }
 
@@ -13,7 +13,7 @@
     font-weight: 800;
 }
 
-.title-subtext, ol, a {
+.title-subtext, ol, a, .logo {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -44,4 +44,45 @@ a {
 
 ol {
     list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ol {
+    display: flex;
+    gap: 10px;
+}
+
+.title {
+    color: white;
+}
+
+.header-upperbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 150px;
+}
+
+.upper-right {
+    display: flex;
+    background-color: grey;
+    color: white;
+    padding: 90px 100px;
+}
+
+.upper-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
 }
