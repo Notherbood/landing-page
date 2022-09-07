@@ -125,3 +125,17 @@ ol {
     font-weight: bold;
     padding-top: 20px;
 }
+
+.lower-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 150px;
+}
+
+.testimonial-thor {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+}
