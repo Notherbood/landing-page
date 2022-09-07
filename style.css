@@ -58,6 +58,11 @@ body {
     padding: 40px 100px;
 }
 
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
 ol {
     display: flex;
     gap: 20px;
@@ -82,4 +87,41 @@ ol {
     height: 300px;
     width: 550px;
     border-radius: 10px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px 50px 100px ;
+}
+
+.middle-title{
+    padding-bottom: 40px;
+}
+
+.little-images {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(45, 79, 181) ;
+}
+
+.image-info-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
 }
