@@ -43,3 +43,15 @@ ol {
 body {
     margin: 0px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+ol {
+    display: flex;
+    gap: 20px;
+}
