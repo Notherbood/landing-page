@@ -188,3 +188,11 @@ ol {
     font-weight: bold;
     font-size: 20px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    color: #E5E7EB;
+}
