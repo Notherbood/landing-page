@@ -74,13 +74,13 @@ ol {
     justify-content: center;
     align-items: center;
     padding: 100px;
-    gap: 40px;
+    gap: 50px;
 }
 
 .upper-left {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 550px;
     gap: 20px;
 }
 
